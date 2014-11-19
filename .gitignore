@@ -1,6 +1,11 @@
-#Ingore Dir
+#Ingore Dirs
 /Debug
 /Release
+/ipch
+/Algorithm/Debug
+/C++Study/Debug
+/CreateInvokeDll/Debug
+
 
 
 # Compiled Object files
