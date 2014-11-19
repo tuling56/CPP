@@ -1,3 +1,8 @@
+#Ingore Dir
+/Debug
+/Release
+
+
 # Compiled Object files
 *.slo
 *.lo
@@ -15,6 +20,7 @@
 
 # Fortran module files
 *.mod
+*.sdf
 
 # Compiled Static libraries
 *.lai
