@@ -1,6 +1,18 @@
-#include "header.h"
+/************************************************************************
+* Copyright(c) 2015 tuling56
+*
+* File:	main.cpp
+* Brief: C++ Study程序的主入口
+* Source:
+* Status: 
+* Date:	[1/30/2015 jmy]
+************************************************************************/
+#include "cppstudy.h"
+#include <iostream>
 
-int main_t()
+using namespace std;
+
+int main_test()
 {
 	
 	/**************************_ 基础学习 _*******************************/
@@ -20,6 +32,6 @@ int main_t()
 	//第八章函数探幽
 
 
-	getchar();
+	cin.get();
 	return 0;
 }

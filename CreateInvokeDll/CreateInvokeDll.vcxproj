@@ -80,6 +80,9 @@
     <ClCompile Include="CreateDll.cpp" />
     <ClCompile Include="InvokeDll.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="使用说明.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

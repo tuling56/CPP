@@ -15,12 +15,6 @@
     <Filter Include="源文件\Source\C++PrimerPlus">
       <UniqueIdentifier>{64a2cd16-1f0d-4b6c-bd2e-b4bd29258788}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\Source\基础">
-      <UniqueIdentifier>{527b52d5-fd86-43d0-ba7d-83e2a5d04972}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="源文件\Source\基础\文件操作">
-      <UniqueIdentifier>{fac7a56e-a02f-40cb-aa4c-935157b995ee}</UniqueIdentifier>
-    </Filter>
     <Filter Include="源文件\Source\C++PrimerPlus\ch13类继承">
       <UniqueIdentifier>{51a71342-eb36-4684-afad-02e60eff3e47}</UniqueIdentifier>
     </Filter>
@@ -36,17 +30,17 @@
     <Filter Include="源文件\Source\C++PrimerPlus\ch9内存模型和名称空间">
       <UniqueIdentifier>{f77c6b0b-7c79-4618-a39a-7afc296818cd}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\Source\学习">
+      <UniqueIdentifier>{527b52d5-fd86-43d0-ba7d-83e2a5d04972}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Source\学习\文件操作">
+      <UniqueIdentifier>{fac7a56e-a02f-40cb-aa4c-935157b995ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Source\学习\字符串">
+      <UniqueIdentifier>{11c3b6e0-b708-4a6f-8e52-9e766b458118}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\iterator.cpp">
-      <Filter>源文件\Source\基础</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\vector.cpp">
-      <Filter>源文件\Source\基础</Filter>
-    </ClCompile>
     <ClCompile Include="Source\C++Primer.Plus 6 源代码\Chapter 4\strtype3.cpp">
       <Filter>源文件\Source\C++PrimerPlus\ch4复合类型</Filter>
     </ClCompile>
@@ -77,9 +71,21 @@
     <ClCompile Include="Source\C++Primer.Plus 6 源代码\Chapter 9\file2.cpp">
       <Filter>源文件\Source\C++PrimerPlus\ch9内存模型和名称空间</Filter>
     </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\fileOpera\findFileDir.cpp">
+      <Filter>源文件\Source\学习\文件操作</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\fileOpera\findFiles.cpp">
+      <Filter>源文件\Source\学习\文件操作</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\fileOpera\findFilesAttr.cpp">
+      <Filter>源文件\Source\学习\文件操作</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="header.h">
+    <ClInclude Include="cppstudy.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

@@ -1,11 +1,17 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++Study", "C++Study\C++Study.vcxproj", "{BDFB0FF6-D0A5-4488-8DCB-CC80E876F3F7}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Algorithm", "Algorithm\Algorithm.vcxproj", "{EA637B81-7F92-40C4-A7C5-BFE0F9226AC3}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CreateInvokeDll", "CreateInvokeDll\CreateInvokeDll.vcxproj", "{5F1C62C9-E17E-4D9F-AF33-2C97BAFCCDFC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MutiThread", "MutiThread\MutiThread.vcxproj", "{729F537F-D874-4DF1-A7B2-A7A3BFD2E362}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CreateInvokeLib", "CreateInvokeLib\CreateInvokeLib.vcxproj", "{30D129DE-5674-436E-A1A7-88980657B341}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +31,14 @@ Global
 		{5F1C62C9-E17E-4D9F-AF33-2C97BAFCCDFC}.Debug|Win32.Build.0 = Debug|Win32
 		{5F1C62C9-E17E-4D9F-AF33-2C97BAFCCDFC}.Release|Win32.ActiveCfg = Release|Win32
 		{5F1C62C9-E17E-4D9F-AF33-2C97BAFCCDFC}.Release|Win32.Build.0 = Release|Win32
+		{729F537F-D874-4DF1-A7B2-A7A3BFD2E362}.Debug|Win32.ActiveCfg = Debug|Win32
+		{729F537F-D874-4DF1-A7B2-A7A3BFD2E362}.Debug|Win32.Build.0 = Debug|Win32
+		{729F537F-D874-4DF1-A7B2-A7A3BFD2E362}.Release|Win32.ActiveCfg = Release|Win32
+		{729F537F-D874-4DF1-A7B2-A7A3BFD2E362}.Release|Win32.Build.0 = Release|Win32
+		{30D129DE-5674-436E-A1A7-88980657B341}.Debug|Win32.ActiveCfg = Debug|Win32
+		{30D129DE-5674-436E-A1A7-88980657B341}.Debug|Win32.Build.0 = Debug|Win32
+		{30D129DE-5674-436E-A1A7-88980657B341}.Release|Win32.ActiveCfg = Release|Win32
+		{30D129DE-5674-436E-A1A7-88980657B341}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

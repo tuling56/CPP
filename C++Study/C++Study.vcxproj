@@ -74,7 +74,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="Source\C++Primer.Plus 6 源代码\Chapter 13\brass.cpp" />
     <ClCompile Include="Source\C++Primer.Plus 6 源代码\Chapter 13\tabtenn1.cpp" />
     <ClCompile Include="Source\C++Primer.Plus 6 源代码\Chapter 13\usebrass1.cpp" />
@@ -85,11 +85,12 @@
     <ClCompile Include="Source\C++Primer.Plus 6 源代码\Chapter 8\inline.cpp" />
     <ClCompile Include="Source\C++Primer.Plus 6 源代码\Chapter 9\file1.cpp" />
     <ClCompile Include="Source\C++Primer.Plus 6 源代码\Chapter 9\file2.cpp" />
-    <ClCompile Include="Source\iterator.cpp" />
-    <ClCompile Include="Source\vector.cpp" />
+    <ClCompile Include="Source\fileOpera\findFilesAttr.cpp" />
+    <ClCompile Include="Source\fileOpera\findFileDir.cpp" />
+    <ClCompile Include="Source\fileOpera\findFiles.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="header.h" />
+    <ClInclude Include="cppstudy.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

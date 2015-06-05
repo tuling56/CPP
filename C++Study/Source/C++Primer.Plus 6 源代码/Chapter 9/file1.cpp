@@ -11,7 +11,7 @@
 
 using namespace std;
 
-int main()
+int file1_main()
 {
     rect rplace;
     polar pplace;

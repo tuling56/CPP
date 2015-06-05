@@ -23,4 +23,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="使用说明.txt">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
 </Project>
