@@ -39,6 +39,15 @@
     <Filter Include="源文件\Source\学习\字符串">
       <UniqueIdentifier>{11c3b6e0-b708-4a6f-8e52-9e766b458118}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\Source\C++PrimerPlus\ch12类和动态内存分配">
+      <UniqueIdentifier>{bcf3950e-f4cc-4882-a72e-442843f0fefc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Source\C++PrimerPlus\ch10对象和类">
+      <UniqueIdentifier>{57a40727-e344-4a92-a98e-a34596fd7ec4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Source\学习\数据结构">
+      <UniqueIdentifier>{22ca1ae0-d955-4bd5-918e-9cb3fc406606}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\C++Primer.Plus 6 源代码\Chapter 4\strtype3.cpp">
@@ -74,19 +83,22 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件\Source</Filter>
     </ClCompile>
-    <ClCompile Include="Source\fileOpera\findFileDir.cpp">
-      <Filter>源文件\Source\学习\文件操作</Filter>
+    <ClCompile Include="Source\C++Primer.Plus 6 源代码\Chapter 12\strngbad.cpp">
+      <Filter>源文件\Source\C++PrimerPlus\ch12类和动态内存分配</Filter>
     </ClCompile>
-    <ClCompile Include="Source\fileOpera\findFiles.cpp">
-      <Filter>源文件\Source\学习\文件操作</Filter>
+    <ClCompile Include="src\ch10对象和类\stock00.cpp">
+      <Filter>源文件\Source\C++PrimerPlus\ch10对象和类</Filter>
     </ClCompile>
-    <ClCompile Include="Source\fileOpera\findFilesAttr.cpp">
-      <Filter>源文件\Source\学习\文件操作</Filter>
+    <ClCompile Include="mapsort.cpp">
+      <Filter>源文件\Source\学习\数据结构</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cppstudy.h">
       <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ch10对象和类\stock00.h">
+      <Filter>源文件\Source\C++PrimerPlus\ch10对象和类</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

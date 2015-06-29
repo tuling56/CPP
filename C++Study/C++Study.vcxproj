@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -20,12 +20,14 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -75,6 +77,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="mapsort.cpp" />
+    <ClCompile Include="Source\C++Primer.Plus 6 源代码\Chapter 12\strngbad.cpp" />
     <ClCompile Include="Source\C++Primer.Plus 6 源代码\Chapter 13\brass.cpp" />
     <ClCompile Include="Source\C++Primer.Plus 6 源代码\Chapter 13\tabtenn1.cpp" />
     <ClCompile Include="Source\C++Primer.Plus 6 源代码\Chapter 13\usebrass1.cpp" />
@@ -85,12 +89,11 @@
     <ClCompile Include="Source\C++Primer.Plus 6 源代码\Chapter 8\inline.cpp" />
     <ClCompile Include="Source\C++Primer.Plus 6 源代码\Chapter 9\file1.cpp" />
     <ClCompile Include="Source\C++Primer.Plus 6 源代码\Chapter 9\file2.cpp" />
-    <ClCompile Include="Source\fileOpera\findFilesAttr.cpp" />
-    <ClCompile Include="Source\fileOpera\findFileDir.cpp" />
-    <ClCompile Include="Source\fileOpera\findFiles.cpp" />
+    <ClCompile Include="src\ch10对象和类\stock00.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cppstudy.h" />
+    <ClInclude Include="src\ch10对象和类\stock00.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
