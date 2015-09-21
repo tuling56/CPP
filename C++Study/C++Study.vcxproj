@@ -76,8 +76,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Comp\palindromicstr.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="mapsort.cpp" />
     <ClCompile Include="Source\C++Primer.Plus 6 源代码\Chapter 12\strngbad.cpp" />
     <ClCompile Include="Source\C++Primer.Plus 6 源代码\Chapter 13\brass.cpp" />
     <ClCompile Include="Source\C++Primer.Plus 6 源代码\Chapter 13\tabtenn1.cpp" />
@@ -89,11 +89,9 @@
     <ClCompile Include="Source\C++Primer.Plus 6 源代码\Chapter 8\inline.cpp" />
     <ClCompile Include="Source\C++Primer.Plus 6 源代码\Chapter 9\file1.cpp" />
     <ClCompile Include="Source\C++Primer.Plus 6 源代码\Chapter 9\file2.cpp" />
-    <ClCompile Include="src\ch10对象和类\stock00.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cppstudy.h" />
-    <ClInclude Include="src\ch10对象和类\stock00.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

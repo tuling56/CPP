@@ -1,0 +1,28 @@
+﻿生成启动时间为 2015/9/21 20:18:08。
+     1>项目“E:\Code\Git\C++\C++Study\C++Study.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Comp\palindromicstr.cpp
+         palindromicstr.cpp
+     1>Comp\palindromicstr.cpp(11): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Code\Git\C++\Release\C++Study.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Code\Git\C++\Release\C++Study.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Code\Git\C++\Release\C++Study.lib" /MACHINE:X86 /SAFESEH Release\palindromicstr.obj
+         Release\main.obj
+         Release\strngbad.obj
+         Release\brass.obj
+         Release\tabtenn1.obj
+         Release\usebrass1.obj
+         Release\usett1.obj
+         Release\error3.obj
+         Release\assgn_st.obj
+         Release\strtype3.obj
+         Release\inline.obj
+         Release\file1.obj
+         Release\file2.obj
+         正在生成代码
+         已完成代码的生成
+         C++Study.vcxproj -> E:\Code\Git\C++\Release\C++Study.exe
+     1>已完成生成项目“E:\Code\Git\C++\C++Study\C++Study.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.82
