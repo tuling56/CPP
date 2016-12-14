@@ -1,11 +1,8 @@
 #Ingore Dirs
-/Debug
-/Release
-/ipch
-/Algorithm/Debug
-/C++Study/Debug
-/CreateInvokeDll/Debug
-
+Debug/
+Release/
+ipch/
+x64/
 
 
 # Compiled Object files
@@ -45,3 +42,7 @@
 *.bmp
 *.tif
 *.gif
+
+# others
+*.log
+*.tlog

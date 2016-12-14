@@ -45,7 +45,7 @@
     <Filter Include="源文件\Source\学习\数据结构">
       <UniqueIdentifier>{22ca1ae0-d955-4bd5-918e-9cb3fc406606}</UniqueIdentifier>
     </Filter>
-    <Filter Include="源文件\Comp">
+    <Filter Include="源文件\train">
       <UniqueIdentifier>{a1262081-68a0-4468-8d08-819d11faac8e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -87,7 +87,13 @@
       <Filter>源文件\Source\C++PrimerPlus\ch12类和动态内存分配</Filter>
     </ClCompile>
     <ClCompile Include="Comp\palindromicstr.cpp">
-      <Filter>源文件\Comp</Filter>
+      <Filter>源文件\train</Filter>
+    </ClCompile>
+    <ClCompile Include="validparas.cpp">
+      <Filter>源文件\train</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\XMP\Record\Problems\高潮模式设计\test_smooth.cpp">
+      <Filter>源文件\train</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

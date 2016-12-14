@@ -47,16 +47,17 @@ int judge_insert_if(string input)
 }
 
 
-int main()
-{
-	int res = judge_insert_if("htcathe");
-	if (res==0){
-		cout << "no roll back" << endl;
-	}
-	else{
-		cout << "roll back" << endl;
-	}
-
-	cin.get();
-	return 0;
-}
+//²âÊÔÈë¿Ú
+//int main()
+//{
+//	int res = judge_insert_if("htcathe");
+//	if (res==0){
+//		cout << "no roll back" << endl;
+//	}
+//	else{
+//		cout << "roll back" << endl;
+//	}
+//
+//	cin.get();
+//	return 0;
+//}

@@ -8,7 +8,7 @@
 * Status: 
 * Date:	[6/25/2015 jmy]
 ************************************************************************/
-#include<Python.h>
+#include<Python.h>  //在安装python时候自带的
 
 int main()
 {
@@ -25,19 +25,16 @@ int main()
 
 	//调用的模块文件名
 	pMode = PyImport_ImportModule("script");
-	//调用函数的函数名
+	
+	//调用函数（不带参数）
 	pfunc = PyObject_GetAttrString(pMode, "hello");
-	//调用函数
-	PyEval_CallObject(pfunc, NULL);
-	//释放函数
-	Py_DECREF(pfunc);
+	PyEval_CallObject(pfunc, NULL);  //调用函数
+	Py_DECREF(pfunc);  				 //释放函数
 
-	//调用函数的函数名
+	//调用函数（带参）
 	pfunc = PyObject_GetAttrString(pMode, "world");
-	//调用函数
-	pArg = Py_BuildValue("(s)", "function with argument");
+	pArg = Py_BuildValue("(s)", "function with argument"); //先构造参数
 	PyEval_CallObject(pfunc,pArg);
-	//释放函数
 	Py_DECREF(pfunc);
 
 	//调用类
@@ -47,8 +44,7 @@ int main()
 		return -1;
 	}
 	pInstance = PyInstance_New(pClass, NULL, NULL);
-	if (!pInstance)
-	{
+	if (!pInstance){
 		printf("cann't create sudent instance\n");
 		return -1;
 	}
@@ -56,12 +52,11 @@ int main()
 	PyObject_CallMethod(pInstance, "SetName", "s", "myfamliy");
 	PyObject_CallMethod(pInstance, "PrintName", NULL, NULL);
 	
-	//调用Py_Finalize，这个根Py_Initialize相对应的。
+	//调用Py_Finalize，这个与Py_Initialize相对应
 	Py_Finalize();
 	
 
 	getchar();
 	return 0;
-
 
 }
