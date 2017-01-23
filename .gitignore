@@ -4,7 +4,7 @@ Release/
 ipch/
 x64/
 
-#
+# VS Project files
 *.vcxproj
 *.vcxproj.filters
 *.vcxproj.user
