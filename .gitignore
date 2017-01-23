@@ -4,6 +4,13 @@ Release/
 ipch/
 x64/
 
+#
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+
 
 # Compiled Object files
 *.slo
