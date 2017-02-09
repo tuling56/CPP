@@ -3,22 +3,21 @@
 
 void test(void)
 {
-	//ÕâÁ½¾ä±àÒë²»Í¨¹ı
 	/*int a=5;
 	printf("%d %p",a,&a);*/
 	/*char name[20];
-	fputs("ÇëÊäÈë×Ö·û£º\n",stdout);
+	fputs("Ã‡Ã«ÃŠÃ¤ÃˆÃ«Ã—Ã–Â·Ã»Â£Âº\n",stdout);
 	gets(name);
 	puts(name);
 	fputs(name,stdout);
-	printf("intĞÍÕ¼µÄ×Ö½ÚÊı£º\n%d",sizeof(int));*/
+	printf("intÃÃÃ•Â¼ÂµÃ„Ã—Ã–Â½ÃšÃŠÃ½Â£Âº\n%d",sizeof(int));*/
 
 	char *str="haeede";
 	puts(str);
 		getchar();
 }
 
-int jjcc()
+int test1()
 {
 	int i;
 	for (i=0;i<5;i++)
@@ -30,6 +29,7 @@ int jjcc()
 }
 
 
+//å­—ç¬¦ä¸²è½¬æ•´å‹
 int m_strtol()
 {
 	char *string, *stopstring;
@@ -59,3 +59,20 @@ int m_strtol()
 	}
 	return 0;
 }
+
+int test2()
+{
+    const char*strnum="1234567";
+    printf("è½¬æ¢æˆçš„æ•°å­—æ˜¯:%d\n",atol(strnum));
+    return 0;
+}
+
+
+//ç¨‹åºå…¥å£
+int main()
+{
+    test2();
+    return 0;
+
+}
+

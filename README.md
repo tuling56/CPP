@@ -7,21 +7,17 @@ C++
 
   算法实现和研究
 
--  Study
+- Application
 
-  基础知识学习
+  应用:MutiThread,CreateInvokeDll,CreateInvokeLib等的使用
 
-- MutiThread
+- c_src
 
-  多线程模块学习
+  c语言学习笔记
 
-- CreateInvokeDll
+- cpp_src
 
-  创建和调用Dll模块
-
-- CreateInvokeLib
-
-  创建和调用Lib模块
+  cpp学习笔记
 
 ---
 
