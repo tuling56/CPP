@@ -10,7 +10,6 @@ x64/
 *.vcxproj.user
 *.sln
 *.suo
-*.sdf
 
 
 # Compiled Object files
@@ -18,6 +17,8 @@ x64/
 *.lo
 *.o
 *.obj
+*.pdb
+*.ilk
 
 # Precompiled Headers
 *.gch
