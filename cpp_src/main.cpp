@@ -7,7 +7,7 @@
 * Status: 
 * Date:	[1/30/2015 jmy]
 ************************************************************************/
-#include "cppstudy.h"
+#include "cpp.h"
 #include <iostream>
 
 using namespace std;
